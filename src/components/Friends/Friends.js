@@ -1,6 +1,8 @@
+import css from './Friends.module.css';
+
 export default function FriendsList({ friends }) {
   return (
-    <ul>
+    <ul className={css.friendlist}>
       {friends.map(({ id, isOnline, name, avatar }) => (
         <li key={id}>
           <span>{isOnline}</span>
