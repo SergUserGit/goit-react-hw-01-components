@@ -32,14 +32,13 @@
   margin-right: 5px;
   width: 25px;
   height: 25px;
-  background-color: #FF0000;
   border-radius: 50%;
 }
 
 .statusOnline {
-  margin-right: 5px;
-  width: 25px;
-  height: 25px;
   background-color: #008000;
-  border-radius: 50%;
+}
+
+.statusOffline {
+  background-color: #FF0000;
 }
