@@ -1,11 +1,13 @@
+import css from './TransactionHistory.module.css';
+
 export default function TransactionHistory({ items }) {
   return (
-    <table>
+    <table className={css.transactionHistory}>
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={css.transactionTitle}>Type</th>
+          <th className={css.transactionTitle}>Amount</th>
+          <th className={css.transactionTitle}>Currency</th>
         </tr>
       </thead>
 
