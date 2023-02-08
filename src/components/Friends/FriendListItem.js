@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 import css from './Friends.module.css';
 
-export default function FriendListItem({ isOnline, avatar, name }) {
+const FriendListItem = function ({ isOnline, avatar, name }) {
   return (
     <li className={css.item}>
       <span
@@ -12,4 +13,12 @@ export default function FriendListItem({ isOnline, avatar, name }) {
       <p className={css.name}>{name}</p>
     </li>
   );
-}
+};
+
+FriendListItem.propTypes = {
+  isOnline: PropTypes.bool,
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+};
+
+export default FriendListItem;
