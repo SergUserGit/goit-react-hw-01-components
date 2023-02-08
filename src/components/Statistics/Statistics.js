@@ -5,7 +5,7 @@ const Statistics = function ({ title, stats }) {
   return (
     <section className={css.statistics}>
       {typeof title !== 'undefined' && <h2 className={css.title}>{title}</h2>}
-      <ul className={css.statlist}>
+      <ul className={css.statList}>
         {stats.map(({ id, label, percentage }) => (
           <li className={css.item} key={id}>
             <span className={css.label}>{label}</span>

@@ -18,15 +18,15 @@ const Profile = function ({
       </div>
 
       <ul className={css.stats}>
-        <li className={css.statsitem}>
+        <li className={css.statsItem}>
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{followers}</span>
         </li>
-        <li className={css.statsitem}>
+        <li className={css.statsItem}>
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{views}</span>
         </li>
-        <li className={css.statsitem}>
+        <li className={css.statsItem}>
           <span className={css.label}>Likes</span>
           <span className={css.quantity}>{likes}</span>
         </li>
