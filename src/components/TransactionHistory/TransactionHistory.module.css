@@ -1,7 +1,25 @@
 .transactionHistory {
   margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .transactionTitle {
-  border: 2px solid #00FFFF;
+  background-color: #00CED1;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.transactionValue {
+  color: #A9A9A9;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #808080;
+  background-color: #FFFFF0;
 }
